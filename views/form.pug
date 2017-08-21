@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    title Text Input Control
+  body
+    form(method="POST", action='/emitter')
+      |
+      p form by #{name}
+      |         
+      input(type='text' name='countryName'  placeholder=' country_name')
+      br
+      |      
+      input(type="text" name='stateName'  placeholder=' state_name')
+      br
+      |          
+      input(type='text' name='lgaName' placeholder=' lga_name')
+      br
+      input(type="submit" value= "Submit") 
